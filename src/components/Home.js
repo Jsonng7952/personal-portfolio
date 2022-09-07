@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { HomeSection, HomeTitle, HomeSubtitle } from './styles/Home.styled';
 
 function Home() {
   return (
-    <div>Home</div>
+    <HomeSection>
+      <HomeTitle>Jason Ng</HomeTitle>
+      <HomeSubtitle>Web Developer</HomeSubtitle>
+    </HomeSection>
   )
 }
 
