@@ -1,26 +1,26 @@
 import styled from "styled-components";
-import nycImage from '../../assets/images/nyc_cyberpunk.png';
+import nycImage from '../../assets/images/nyc-cyberpunk.png';
 
 export const HomeSection = styled.section`
   background: 
     linear-gradient(
-      rgba(255, 255, 255, 0.2), 
-      rgba(255, 255, 255, 0.2)
+      rgba(243, 230, 0, 1), 
+      rgba(243, 230, 0, 0.8)
     ),
     url(${nycImage});
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5em 1em;
+  padding: 10em 1em;
   position: relative;
 `
 export const HomeTitle = styled.h1`
   color: ${props => props.theme.colorPrimary};
   font-family: ${props => props.theme.fontFamily};  
   font-size: 10rem;
-  text-shadow: 2px 2px 4px ${props => props.theme.colorRed};
+  text-shadow: 2px 2px 4px ${props => props.theme.colorBlue};
   white-space: nowrap;
 `
 
@@ -28,5 +28,5 @@ export const HomeSubtitle = styled.p`
   color: ${props => props.theme.colorPrimary};
   font-family: ${props => props.theme.fontFamily};
   font-size: 4rem;
-  text-shadow: 2px 2px 4px ${props => props.theme.colorRed};
+  text-shadow: 2px 2px 4px ${props => props.theme.colorBlue};
 `
