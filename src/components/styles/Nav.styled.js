@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const NavContainer = styled.header`
-  background-color: ${props => props.theme.colorAccent};
+  background-color: ${props => props.theme.colorBlue};
   font-family: ${props => props.theme.fontFamily};
   padding: 0.2em 1em;
   display: flex;
