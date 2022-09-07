@@ -1,7 +1,7 @@
 export const PrimaryTheme = {
   colorPrimary: "#000",
   colorSecondary: "#FFF",
-  colorAccent: "#F3E600",
+  colorYellow: "#F3E600",
   colorBlue: "#04DAF6",
   colorRed: "#FF003C",
   fontWeight400: "400",
