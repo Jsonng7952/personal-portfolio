@@ -56,5 +56,5 @@ export const TechIcon = styled.div`
 export const TechName = styled.p`
   color: ${props => props.theme.colorBlue};
   font-size: clamp(0.7rem, 2vw, 1rem);
-  font-weight: ${props => props.theme.fontWeight700};
+  font-weight: ${props => props.theme.fontWeight400};
 `
