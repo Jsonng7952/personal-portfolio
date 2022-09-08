@@ -6,10 +6,10 @@ function Nav() {
     <NavContainer>
       <NavLogo>JN</NavLogo>
       <NavList>
-        <NavLink>Home</NavLink>
-        <NavLink>About</NavLink>
-        <NavLink>Projects</NavLink>
-        <NavLink>Contact</NavLink>
+        <NavLink><a a href='#home'>Home</a></NavLink>
+        <NavLink><a a href='#about'>About</a></NavLink>
+        <NavLink><a a href='#projects'>Projects</a></NavLink>
+        <NavLink><a a href='#contact'>Contact</a></NavLink>
       </NavList>
     </NavContainer>
   )

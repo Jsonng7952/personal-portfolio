@@ -3,7 +3,7 @@ import { HomeSection, HomeTitle, HomeSubtitle } from './styles/Home.styled';
 
 function Home() {
   return (
-    <HomeSection>
+    <HomeSection id='home'>
       <HomeTitle>Jason Ng</HomeTitle>
       <HomeSubtitle>Web Developer</HomeSubtitle>
     </HomeSection>

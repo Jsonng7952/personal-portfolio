@@ -10,4 +10,8 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background-color: black;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 `

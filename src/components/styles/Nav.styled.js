@@ -21,11 +21,14 @@ export const NavList = styled.ul`
 `
 
 export const NavLink = styled.li`
-  color: ${props => props.theme.colorPrimary};  
-  font-weight: ${props => props.theme.fontWeight400};
-  font-size: 1rem;
   margin: 0 1em;
-  cursor: pointer;
+
+  a {
+    font-size: 1rem;
+    color: ${props => props.theme.colorPrimary};  
+    font-weight: ${props => props.theme.fontWeight400};
+    text-decoration: none;
+  }
 
   // Hide text links when screen gets smaller
   @media (max-width: 768px) {

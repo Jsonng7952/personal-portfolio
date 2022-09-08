@@ -4,7 +4,7 @@ import StockProjectImage from '../assets/images/stock-project.png';
 
 function Project() {
   return (
-    <ProjectSection>
+    <ProjectSection id='projects'>
       <ProjectSectionTitle>Projects</ProjectSectionTitle>
       <ProjectContainer>
         {/*Project 1*/}
