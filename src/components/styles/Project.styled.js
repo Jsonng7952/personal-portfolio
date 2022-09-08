@@ -68,4 +68,5 @@ export const ProjectButtons = styled.button`
   font-size: 1.5em;
   padding: 0.5rem;
   border: none;
+  cursor: pointer;
 `
