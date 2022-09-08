@@ -6,7 +6,7 @@ export const AboutSection = styled.section`
   padding: 5em 0;
   text-align: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     padding: 3em 1em;
   }
 `
