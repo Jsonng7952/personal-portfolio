@@ -14,7 +14,6 @@ export const HomeSection = styled.section`
   flex-direction: column;
   align-items: center;
   padding: 10em 1em;
-  position: relative;
 `
 export const HomeTitle = styled.h1`
   color: ${props => props.theme.colorPrimary};
