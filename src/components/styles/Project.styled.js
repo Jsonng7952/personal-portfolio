@@ -30,6 +30,10 @@ export const ProjectCard = styled.div`
   background-color: ${props => props.theme.colorBlue};
   border: 5px solid ${props => props.theme.colorPrimary};
   padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
 `
 
 export const ProjectImage = styled.img`
@@ -37,12 +41,31 @@ export const ProjectImage = styled.img`
 `
 
 export const ProjectContent = styled.div`
+
+`
+
+export const ProjectTextContainer = styled.div`
   margin: 0.5em 2em;
 `
 
 export const ProjectTitle = styled.h2`
   font-size: 2em;
 `
-export const ProjectDescription = styled.p``
 
-export const ProjectButtons = styled.button``
+export const ProjectDescription = styled.p`
+  font-size: 1em;
+`
+
+export const ProjectButtonContainer = styled.div`
+  display: flex;
+  gap: 1rem;
+`
+
+export const ProjectButtons = styled.button`
+  background-color: ${props => props.theme.colorRed};
+  color: ${props => props.theme.colorSecondary};
+  font-family: ${props => props.theme.fontFamily};  
+  font-size: 1.5em;
+  padding: 0.5rem;
+  border: none;
+`
