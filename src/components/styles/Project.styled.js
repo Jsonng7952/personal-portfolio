@@ -10,7 +10,8 @@ export const ProjectSection = styled.section`
   }
 `
 export const ProjectSectionTitle = styled.h1`
-  font-size: 4em;
+  text-shadow: 2px 2px 4px ${props => props.theme.colorBlue};
+  font-size: clamp(2rem, 5vw, 4rem);
   text-align: center;
 `
 
@@ -33,7 +34,7 @@ export const ProjectCard = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 `
 
 export const ProjectImage = styled.img`
@@ -49,11 +50,11 @@ export const ProjectTextContainer = styled.div`
 `
 
 export const ProjectTitle = styled.h2`
-  font-size: 2em;
+  font-size: clamp(1.5rem, 2vw, 2rem);
 `
 
 export const ProjectDescription = styled.p`
-  font-size: 1em;
+  font-size: clamp(1rem, 2vw, 1.2rem);
 `
 
 export const ProjectButtonContainer = styled.div`
@@ -65,7 +66,7 @@ export const ProjectButtons = styled.button`
   background-color: ${props => props.theme.colorRed};
   color: ${props => props.theme.colorSecondary};
   font-family: ${props => props.theme.fontFamily};  
-  font-size: 1.5em;
+  font-size: clamp(1rem, 2vw, 1.5rem);
   padding: 0.5rem;
   border: none;
   cursor: pointer;

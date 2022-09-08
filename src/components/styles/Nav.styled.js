@@ -26,4 +26,9 @@ export const NavLink = styled.li`
   font-size: 1rem;
   margin: 0 1em;
   cursor: pointer;
+
+  // Hide text links when screen gets smaller
+  @media (max-width: 768px) {
+    display: none;
+  }
 `

@@ -19,7 +19,7 @@ export const HomeSection = styled.section`
 export const HomeTitle = styled.h1`
   color: ${props => props.theme.colorPrimary};
   font-family: ${props => props.theme.fontFamily};  
-  font-size: 10rem;
+  font-size: clamp(5rem, 10vw, 10rem);
   text-shadow: 2px 2px 4px ${props => props.theme.colorBlue};
   white-space: nowrap;
 `
@@ -27,6 +27,6 @@ export const HomeTitle = styled.h1`
 export const HomeSubtitle = styled.p`
   color: ${props => props.theme.colorPrimary};
   font-family: ${props => props.theme.fontFamily};
-  font-size: 4rem;
+  font-size: clamp(2rem, 5vw, 4rem);
   text-shadow: 2px 2px 4px ${props => props.theme.colorBlue};
 `

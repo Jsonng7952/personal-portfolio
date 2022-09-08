@@ -7,13 +7,13 @@ export const AboutSection = styled.section`
   text-align: center;
 
   @media (max-width: 768px) {
-    padding: 3em 0;
+    padding: 3em 1em;
   }
 `
 export const AboutTitle = styled.h1`
   color: ${props => props.theme.colorBlue};
   font-family: ${props => props.theme.fontFamily};  
-  font-size: 4em;
+  font-size: clamp(2rem, 5vw, 4rem);
   position: relative;
 
   &::after {
@@ -32,19 +32,20 @@ export const AboutBody = styled.div`
 export const AboutText = styled.p`
   color: ${props => props.theme.colorBlue};
   font-family: ${props => props.theme.fontFamily};  
-  font-size: 1.2em;
+  font-size: clamp(1rem, 2vw, 1.2rem);
 `
 export const AboutSkills = styled.div`
   font-family: ${props => props.theme.fontFamily};  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-top: 1em;
+
+  border: 5px solid ${props => props.theme.colorBlue};
 `
 
 export const TechIcon = styled.div`
-  flex: 1;
-  padding: 1em;
+  padding: 0.8em;
   margin: 0.5em;
-  border: 5px solid ${props => props.theme.colorBlue};
 
   svg {
     width: 100%;
@@ -54,6 +55,6 @@ export const TechIcon = styled.div`
 
 export const TechName = styled.p`
   color: ${props => props.theme.colorBlue};
-  font-size: 1rem;
+  font-size: clamp(0.7rem, 2vw, 1rem);
   font-weight: ${props => props.theme.fontWeight700};
 `

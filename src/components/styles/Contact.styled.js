@@ -7,13 +7,13 @@ export const ContactSection = styled.section`
   text-align: center;
 
   @media (max-width: 768px) {
-    padding: 3em 0;
+    padding: 3em 1em;
   }
 `
 export const ContactTitle = styled.h1`
   color: ${props => props.theme.colorBlue};
   font-family: ${props => props.theme.fontFamily};  
-  font-size: 4em;
+  font-size: clamp(2rem, 5vw, 4rem);
   position: relative;
 
   &::after {
@@ -31,5 +31,5 @@ export const ContactBody = styled.div``
 export const ContactText = styled.p`
   color: ${props => props.theme.colorBlue};
   font-family: ${props => props.theme.fontFamily};  
-  font-size: 1.2em;
+  font-size: clamp(1rem, 2vw, 1.2rem);
 `
