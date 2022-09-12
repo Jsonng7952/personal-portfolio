@@ -1,7 +1,15 @@
 import styled from "styled-components";
+import nycImagePortrait from '../../assets/images/nyc-cyberpunk-portrait.png';
 
 export const ProjectSection = styled.section`
-  background-color: ${props => props.theme.colorYellow};
+  background: 
+    linear-gradient(
+      rgba(243, 230, 0, 1), 
+      rgba(243, 230, 0, 0.8)
+    ),
+    url(${nycImagePortrait});
+  background-size: cover;
+  background-position: center center;  
   font-family: ${props => props.theme.fontFamily};  
   padding: 5em 0;
 
