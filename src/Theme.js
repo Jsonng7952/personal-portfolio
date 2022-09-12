@@ -7,4 +7,12 @@ export const PrimaryTheme = {
   fontWeight400: "400",
   fontWeight700: "700",
   fontFamily: "'Chakra Petch', sans-serif",
+
+  /**
+   * font-sizes:
+   *  Title: 10rem
+   *  Subtitle: 4rem
+   *  InnerTitle: 2rem
+   *  Text: 1.2rem
+   */
 }
