@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-A personal portfolio website. Still a work in progress. 
+A personal portfolio website.  
 
 [Live Demo](https://jsonng7952.github.io/personal-portfolio/) :point_left:
 
