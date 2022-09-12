@@ -4,8 +4,8 @@ import nycImage from '../../assets/images/nyc-cyberpunk.png';
 export const HomeSection = styled.section`
   background: 
     linear-gradient(
-      rgba(243, 230, 0, 1), 
-      rgba(243, 230, 0, 0.8)
+      rgba(255, 255, 255, 0.8), 
+      rgba(255, 255, 255, 0.5)
     ),
     url(${nycImage});
   background-size: cover;
