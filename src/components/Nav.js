@@ -1,13 +1,34 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from "react";
 import { NavContainer, NavLogo, NavList, NavLink, NavButton, NavHamburgerOpen, NavHamburgerClose } from './styles/Nav.styled';
 
 function Nav() {
 
+  const [windowWidth, setWindowWidth] = useState(getWindowWidth());
+  
+  function getWindowWidth() {
+    const { innerWidth: width } = window;
+    return { width };
+  }
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowWidth(getWindowWidth());
+    }
+
+    // Everytime window resizes, get the width of the current window.
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const { width } = windowWidth;
+
   const [click, setClick] = useState(false);
 
+  // Stops the nav links from opening the menu when the screen size is greater than 768px.
   const displayNav = () => {
-    setClick(!click);
-  };
+    if(width <= 768)
+      setClick(!click);
+  };  
 
   return (
     <NavContainer>

@@ -67,6 +67,7 @@ export const NavButton = styled.button`
   cursor: pointer;
   z-index: 1000;
 
+  // If screen gets big enough, hide the hamburger menu.
   @media (min-width: 768px) {
     display: none;
   }
