@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/personal-portfolio/static/js/main.1e2fbe6a.js",
+    "static/media/nyc-cyberpunk-portrait.png": "/personal-portfolio/static/media/nyc-cyberpunk-portrait.13338ad463c4c273ca11.png",
+    "static/media/nyc-cyberpunk.png": "/personal-portfolio/static/media/nyc-cyberpunk.c001b0f1b165f9bed721.png",
+    "static/media/stock-project.png": "/personal-portfolio/static/media/stock-project.4f2879085262b0a00470.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.1e2fbe6a.js.map": "/personal-portfolio/static/js/main.1e2fbe6a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.1e2fbe6a.js"
+  ]
+}
